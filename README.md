@@ -81,26 +81,3 @@ The project uses TestNG for running tests. Ensure all tests are correctly config
 ```bash
 mvn test
 ```
-
-##Project Structure
-
-InfiniteAnalytics_Assesment/
-├── pom.xml                    # Project Object Model file for Maven
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── org/
-│   │   │       └── example/
-│   │   │           ├── CommonUtils/
-│   │   │           │   └── Commons.java
-│   │   │           ├── ExcelUtilities/
-│   │   │           │   └── DataProviders.java
-│   │   │           └── POM/
-│   │   │               └── DownloadElectrolRolls.java
-│   ├── test/
-│   │   └── java/
-│   │       └── org/
-│   │           └── example/
-│   │               └── DownloadElectrolRoll.java
-└── README.md                  # README file
-
